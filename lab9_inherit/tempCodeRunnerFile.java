@@ -1,0 +1,1 @@
+ derive d = new derive();

@@ -1,0 +1,102 @@
+string
+----------
+
+str.length()
+=======================================================
+array
+-----
+intitialize with zero
+
+int[] arr=new int[3];
+int[][] arr=new int[{1,2,3},{1,2,3}];
+
+()
+-------------------
+1.arr.length
+
+Arrays.sort(arr);  //inside util package
+
+================================================
+
+casting
+----------
+
+1. implicit : from big data type to small 
+             done automatically by the comiler
+
+
+2. Explicit : we have to do it by  //int(23.12)
+
+=============================================
+
+constant
+--------
+using final keyword
+
+final pi=3.14F;
+
+=============================================
+
+Math class
+-----------
+math.max()
+
+math.min()
+
+(int)math.random()*1000
+
+============================================
+
+input()
+------------
+import java.util.scanner
+
+scanner sc=new scanner(sytem.in); //object created
+
+int    name=sc.int()//for a int 
+string name=sc.next()//for a word
+string name=sc.nextline( )//for a word
+
+
+===============================================
+
+exception handling
+--------------------------
+index out of bound exception
+division b   y zero
+try catch block
+
+===============================================
+
+default
+private   //use getter setter
+protected
+public
+
+=================================================
+
+1.inheritence
+
+2.polymorphism()
+
+3.encapsulation
+
+4.abstraction(showing only the important stuffs)
+   abstract class   
+   interfece   //no constructppr / function define only ansd are public 
+               //use implements insteead of extends
+               //  daat members are static
+
+====================================================
+
+static
+-------
+
+can be acceses by  class name  and are same for all object 
+
+
+
+
+
+
+
